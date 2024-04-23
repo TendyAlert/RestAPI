@@ -1,4 +1,4 @@
-import { config } from "dotenv"
+import { config } from 'dotenv';
 
 config();
-console.log("DB_URI", process.env.DB_URI)
+console.log(process.env.DB_URI);
